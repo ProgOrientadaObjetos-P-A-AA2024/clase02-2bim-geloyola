@@ -42,7 +42,8 @@ public class EstudianteDistancia extends Estudiante{
         return matriculaDistancia;
     }
     
-    //para a
+    //para agregar el toString la manera corta de hacerlo llamamos al toString de la superclase
+    //colocando en las comillas %s\n y en los args super.toString()
     @Override
     public String toString(){
     String cadena = String.format("%s\n"
