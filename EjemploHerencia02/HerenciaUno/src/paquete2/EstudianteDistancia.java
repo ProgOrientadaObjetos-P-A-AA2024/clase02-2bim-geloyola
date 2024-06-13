@@ -1,12 +1,13 @@
 package paquete2;
 
+//hay un error ya que no hay un constructor que se conecte con "Estudiante"
 public class EstudianteDistancia extends Estudiante{
     
     private int numeroAsignaturas;
     private double costoAsignatura;
     private double matriculaDistancia;
     
-    
+    publix EstudianteD
     // 2.  Método establecerNumeroAsginaturas(numero: Real)
     public void establecerNumeroAsginaturas(int numero){
         numeroAsignaturas = numero;
