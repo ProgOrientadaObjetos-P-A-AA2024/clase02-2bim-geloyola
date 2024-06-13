@@ -7,7 +7,8 @@ public class EstudianteDistancia extends Estudiante{
     double costoAsignatura;
     double matriculaDistancia;
     
-        
+   //al momento de recibir y enviar a la super clase no es neceario llamar a los 
+    //metodos
     public EstudianteDistancia(String n, String ap, String iden, int e, 
             int numAsg, double costoAsg){
         super(n, ap, iden, e);
